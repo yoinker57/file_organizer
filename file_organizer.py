@@ -2,7 +2,6 @@ import os
 import shutil
 
 dirName = input('Enter folder name: ')
-# dirName = 'test'
 files = os.listdir(dirName)
 print(files)
 for file in files:
